@@ -1,12 +1,13 @@
 {
   "name": "bc2024-4",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js -- -h localhost -p 3000 -c ./cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ваше Імʼя bc2024-4",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -17,3 +18,4 @@
     "nodemon": "^3.1.7"
   }
 }
+
